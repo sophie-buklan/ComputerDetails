@@ -163,6 +163,9 @@
     <ClInclude Include="VideoDevices.h" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="FormDialog.resx">
+      <DependentUpon>FormDialog.h</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormMain.resx">
       <DependentUpon>FormMain.h</DependentUpon>
     </EmbeddedResource>
