@@ -2,6 +2,7 @@
 
 using namespace System;
 
+//Ёлектроприбор
 ref class ElectricalAppliance
 {
 public:

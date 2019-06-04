@@ -1,5 +1,7 @@
 #pragma once
 #include "Peripheral.h"
+
+//Видеоустройство
 ref class VideoDevices :
 	public Peripheral
 {

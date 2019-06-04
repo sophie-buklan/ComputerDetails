@@ -1,5 +1,7 @@
 #pragma once
 #include "Peripheral.h"
+
+//Аудиоустройство
 ref class AudioDevices :
 	public Peripheral
 {

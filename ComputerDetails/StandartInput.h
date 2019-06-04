@@ -1,5 +1,7 @@
 #pragma once
 #include "Peripheral.h"
+
+//Стандартный ввод
 ref class StandartInput :
 	public Peripheral
 {

@@ -1,5 +1,7 @@
 #pragma once
 #include "ElectricalAppliance.h"
+
+//Устройства с памятью
 ref class DevicesWithMemory :
 	public ElectricalAppliance
 {

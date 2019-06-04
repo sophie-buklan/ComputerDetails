@@ -1,5 +1,7 @@
 #pragma once
 #include "DevicesWithMemory.h"
+
+//Вычислительное устройство
 ref class ComputationalUnit :
 	public DevicesWithMemory
 {

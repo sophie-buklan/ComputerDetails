@@ -1,5 +1,7 @@
 #pragma once
 #include "DevicesWithMemory.h"
+
+//Запоминающее устройство
 ref class Memory :
 	public DevicesWithMemory
 {

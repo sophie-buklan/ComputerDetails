@@ -1,6 +1,8 @@
 #pragma once
 #include "ElectricalAppliance.h"
 #include "Plugs.h"
+
+//Периферийное устройство
 ref class Peripheral :
 	public ElectricalAppliance
 {
