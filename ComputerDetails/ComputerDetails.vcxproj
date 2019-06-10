@@ -21,10 +21,10 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
     <ProjectGuid>{C9B281ED-7047-4B56-8064-0C5B6DA6871A}</ProjectGuid>
-    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <Keyword>ManagedCProj</Keyword>
     <RootNamespace>ComputerDetails</RootNamespace>
-    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -135,6 +135,7 @@
   <ItemGroup>
     <ClCompile Include="AudioDevices.cpp" />
     <ClCompile Include="ComputationalUnit.cpp" />
+    <ClCompile Include="DataBase.cpp" />
     <ClCompile Include="DevicesWithMemory.cpp" />
     <ClCompile Include="ElectricalAppliance.cpp" />
     <ClCompile Include="FormDialog.cpp" />
@@ -148,6 +149,7 @@
   <ItemGroup>
     <ClInclude Include="AudioDevices.h" />
     <ClInclude Include="ComputationalUnit.h" />
+    <ClInclude Include="DataBase.h" />
     <ClInclude Include="DevicesWithMemory.h" />
     <ClInclude Include="ElectricalAppliance.h" />
     <ClInclude Include="FormDialog.h">
